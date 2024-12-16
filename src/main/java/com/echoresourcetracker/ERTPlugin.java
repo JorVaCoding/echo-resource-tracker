@@ -62,8 +62,6 @@ public class ERTPlugin extends Plugin {
                         updateResource(itemManager.search(itemStr).get(0).getId(), Integer.parseInt(amountStr));
                     }
                 } catch (Exception e) {
-                    System.err.println("Error trying to prase chat message or finding item");
-//					e.printStackTrace();
                 }
             }
         }
